@@ -140,6 +140,28 @@ h2 {
     color: black;
 }
 
+/* PROFILE PHOTO STYLING */
+.profile-photo {
+    width: 200px;            /* Size of the photo */
+    height: 200px;           /* Height matches width for a square/circle */
+    border-radius: 50%;      /* Makes it a perfect circle */
+    object-fit: cover;       /* Ensures the photo doesn't stretch/distort */
+    float: right;            /* Pushes it to the right side */
+    margin-left: 20px;       /* Adds space between text and photo */
+    margin-bottom: 10px;
+    border: 4px solid var(--primary-color); /* Optional: Adds a gold border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Optional: Adds a subtle shadow */
+}
+
+/* Mobile Fix: Center the photo on small screens */
+@media (max-width: 600px) {
+    .profile-photo {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+}
+
 /* Show the menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
