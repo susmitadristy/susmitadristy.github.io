@@ -1,6 +1,6 @@
 ## Alumni
 
-### MS thesis students supervised
+### M.S. thesis students supervised
 
 (1) **Smaranima Ghosh Jui** (2019-20)\
 Current Position: Assistant Professor\
@@ -17,3 +17,8 @@ Current Position: Practicing Dietitian, Chittagong, Bangladesh
 
 (6) **Anamul Haque** (2018-19)\
 Current Position: Nutrition site supervisor, Concern Worldwide, Bangladesh
+
+
+### Undergraduate thesis supervised
+
+16 U.G. students supervised _(names coming soon)_
