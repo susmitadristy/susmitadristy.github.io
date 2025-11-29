@@ -12,11 +12,13 @@ Prior to Purdue, I served as an Assistant Professor (currently on sabbatical) at
 
 ## Education
 
-**Ph.D. Candidate, Nutrition Science**
-*Purdue University (Jan 2021 – Present)*
+**Ph.D. Candidate**\
+(Jan 2021 – Present)\
+Department of Nutrition Science\
+Purdue University 
 
-**M.S., Nutrition and Food Science**
+**M.S., Nutrition and Food Science**\
 *University of Dhaka, Bangladesh (2016)*
 
-**B.S. (Honors), Nutrition and Food Science**
+**B.S. (Honors), Nutrition and Food Science**\
 *Institute of Nutrition and Food Science, University of Dhaka, Bangladesh (2015)*
