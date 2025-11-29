@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni & Members | Susmita Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <h1>Susmita Ghosh</h1>
+        <p class="subtitle">Ph.D. Candidate, Nutrition Science | Purdue University</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            
+            <div class="dropdown">
+                <button class="dropbtn">Publications <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="selected-publications.html">Selected Publications</a>
+                    <a href="publications.html">Full Publication List</a>
+                </div>
+            </div>
+
+            <a href="teaching.html">Teaching</a>
+            <a href="members.html" class="active">Members</a>
+            <a href="cv.html">CV</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="markdown-content">Loading members...</div>
+    </div>
+
+    <script>
+        fetch('members.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('markdown-content').innerHTML = marked.parse(text);
+            });
+    </script>
+
+</body>
+</html>
