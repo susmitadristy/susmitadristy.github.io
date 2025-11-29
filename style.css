@@ -1,171 +1,77 @@
 /* GLOBAL SETTINGS */
 :root {
-    --primary-color: #C28E0E; /* Purdue Old Gold-ish */
+    --primary-color: #C28E0E; /* Purdue Old Gold */
     --text-dark: #333;
-    --text-light: #666;
-    --bg-light: #f4f4f9;
-    --sidebar-bg: #2C2C2C;
-    --sidebar-text: #ffffff;
+    --bg-light: #fff;
+    --nav-bg: #2C2C2C;
+    --nav-text: #fff;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex; /* Creates the side-by-side layout */
-    min-height: 100vh;
     color: var(--text-dark);
-}
-
-/* SIDEBAR STYLING */
-.sidebar {
-    width: 300px;
-    background-color: var(--sidebar-bg);
-    color: var(--sidebar-text);
-    padding: 40px 20px;
-    flex-shrink: 0; /* Prevents sidebar from shrinking */
-    text-align: center;
-}
-
-.sidebar h1 {
-    font-size: 1.8rem;
-    margin-bottom: 5px;
-    color: var(--primary-color);
-}
-
-.sidebar .title {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-top: 0;
-    opacity: 0.9;
-}
-
-.contact-links {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.contact-links a {
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-    border: 1px solid #555;
-    border-radius: 4px;
-    transition: 0.3s;
-}
-
-.contact-links a:hover {
-    background-color: var(--primary-color);
-    color: #000;
-    border-color: var(--primary-color);
-}
-
-.skills-section {
-    margin-top: 50px;
-    text-align: left;
-}
-
-.skills-section h3 {
-    border-bottom: 1px solid #555;
-    padding-bottom: 5px;
-}
-
-.skills-section ul {
-    padding-left: 20px;
     line-height: 1.6;
 }
 
-/* MAIN CONTENT STYLING */
-.main-content {
-    flex-grow: 1;
-    padding: 50px;
-    background-color: white;
-    max-width: 900px; /* Prevents lines from getting too long to read */
+/* HEADER & NAVIGATION */
+header {
+    background-color: var(--nav-bg);
+    padding: 20px 0;
+    text-align: center;
 }
 
-section {
-    margin-bottom: 40px;
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2rem;
 }
 
+header .subtitle {
+    color: #ccc;
+    margin: 5px 0 20px 0;
+    font-weight: 300;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover, nav a.active {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 800px;
+    margin: 40px auto; /* Centers the content */
+    padding: 0 20px;
+}
+
+/* SECTIONS & TYPOGRAPHY */
 h2 {
     color: var(--primary-color);
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
+    margin-top: 40px;
 }
 
-/* Education and Jobs Styling */
-.timeline-item, .job {
-    margin-bottom: 25px;
-}
-
-.timeline-item h3, .job h3 {
-    margin: 0 0 5px 0;
-    font-size: 1.1rem;
-}
-
-.date {
-    font-size: 0.9rem;
-    color: var(--text-light);
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-/* MARKDOWN CONTENT STYLING */
-#markdown-content li {
-    margin-bottom: 12px;
-    line-height: 1.5;
-}
-
-#markdown-content strong {
-    color: #000;
-}
-
-/* MOBILE RESPONSIVENESS */
-@media (max-width: 768px) {
-    body {
-        flex-direction: column; /* Stack sidebar on top of content */
-    }
-    .sidebar {
-        width: 100%; /* Full width */
-        padding: 20px;
-        box-sizing: border-box;
-    }
-    .main-content {
-        padding: 20px;
-    }
-}
-/* NAVIGATION MENU */
-.nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Space between buttons */
-    margin: 30px 0;
-    width: 100%;
-}
-
-.nav-link {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.1); /* Subtle background */
-    transition: all 0.3s ease;
-}
-
-.nav-link:hover, .nav-link.active {
-    background-color: var(--primary-color);
-    color: #000;
-    font-weight: bold;
-}
-
+/* Buttons */
 .btn-download {
     display: inline-block;
     background-color: var(--primary-color);
@@ -174,8 +80,9 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
-.btn-download:hover {
-    opacity: 0.9;
-}
+.btn-download:hover { opacity: 0.9; }
+
+/* Markdown Styling */
+#markdown-content ul { padding-left: 20px; }
+#markdown-content li { margin-bottom: 15px; }
