@@ -1,4 +1,16 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Publications | Susmita Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <header>
         <h1>Susmita Ghosh</h1>
         <p class="subtitle">Ph.D. Candidate, Nutrition Science | Purdue University</p>
         <nav>
@@ -6,7 +18,7 @@
             <a href="research.html">Research</a>
             
             <div class="dropdown">
-                <button class="dropbtn">Publications <i class="fas fa-caret-down"></i></button>
+                <button class="dropbtn active">Publications <i class="fas fa-caret-down"></i></button>
                 <div class="dropdown-content">
                     <a href="selected-publications.html">Selected Publications</a>
                     <a href="publications.html">Full Publication List</a>
@@ -14,6 +26,33 @@
             </div>
 
             <a href="teaching.html">Teaching</a>
-            <a href="members.html">Members</a> <a href="cv.html">CV</a>
+            <a href="members.html">Members</a>
+            <a href="cv.html">CV</a>
         </nav>
     </header>
+
+    <div class="container">
+        <h2>Selected Publications</h2>
+        <div id="markdown-content">Loading selected publications...</div>
+    </div>
+
+    <script>
+        // This script fetches the SPECIFIC markdown file for this page
+        fetch('selected-publications.md')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.text();
+            })
+            .then(text => {
+                document.getElementById('markdown-content').innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                document.getElementById('markdown-content').innerHTML = 
+                "<p>Error loading publications. Please ensure 'selected-publications.md' exists.</p>";
+            });
+    </script>
+
+</body>
+</html>
