@@ -6,7 +6,9 @@ I am a Ph.D. Candidate in the Interdepartmental Nutrition Program at Purdue Univ
 
 Prior to Purdue, I served as an Assistant Professor (currently on sabbatical) at Noakhali Science and Technology University in Bangladesh.
 
-**Contact:** [ghosh81@purdue.edu](mailto:ghosh81@purdue.edu) | [Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en)
+**Contact:**
+
+[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu) | [Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
 
 ## Education
 
