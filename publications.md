@@ -42,7 +42,7 @@ Please visit my [Google Scholar](https://scholar.google.com/citations?user=ceZ46
 
 (7) **Ghosh, S.**, Kabir, M. R., Khan, M. M. I., et al. (2020). Knowledge, Attitude, and Practice (KAP) regarding personal hygiene among primary school going children in Sadar Upazilla, Noakhali District, Bangladesh. [Indian Journal of Public Health Research & Development, 11(6).](https://medicopublication.com/index.php/ijphrd/article/view/10601)
 
-(6) Kabir, M. R., **Ghosh, S.**, Al Mamun, M. A., et al. (2020). Factors associated with antenatal and health facility delivery care in selected areas of Subornochor upazila, Noakhali, Bangladesh. [Clinical Epidemiology and Global Health, 8(3), 983-988.](https://www.sciencedirect.com/science/article/pii/S2213398419303458)
+(6) Kabir, M. R., **Ghosh, S.**, Al Mamun, M. A., et al. (2020). Factors associated with antenatal and health facility delivery care in selected areas of Subornochor upazila, Noakhali, Bangladesh. [Clinical Epidemiology and Global Health, 8(3), 983-988.](https://www.sciencedirect.com/science/article/pii/S2213398420300750)
 
 (5) Sabuj, M. P., Chowdhury, R., Al Mamun, M. A., Kabir, M. R., **Ghosh, S.**, et al. (2020). Assessment of dietary diversity of mothers (0-2 years childbearing) in Noakhali District of Bangladesh. [Journal of Noakhali Science and Technology University (JNSTU), 4(1&2), 1-11.](https://www.banglajol.info/index.php/JNSTU/article/view/62655)
 
