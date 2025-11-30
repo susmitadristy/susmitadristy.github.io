@@ -1,3 +1,5 @@
+### Please visit my [Google Scholar]([url](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en)) for the updated list of publications.
+
 ## Publications
 
 (26) Shively, G., Ambikapathi, R., Eddens, K., **Ghosh, S.**, et al. (2024). Demand-driven capacity building for public health nutrition research in Lao PDR. [Global Health Research and Policy, 9(1), 36.](https://pubmed.ncbi.nlm.nih.gov/39294838/)
