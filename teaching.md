@@ -38,13 +38,24 @@ See [Prof. Trenton Mize's website](https://www.trentonmize.com/teaching/mcapsi) 
 *   Nutritional Biochemistry
 *   Nutrition and Dietetics
 
+</details>
+
 ---
 
-***Lecturer*** (2017 – 2019)\
-Department of Food Technology and Nutrition Science\
-Noakhali Science and Technology University (Bangladesh)
+<div class="job-header">
+    <div>
+        <span><strong>Lecturer</strong></span>
+        <br>Department of Food Technology and Nutrition Science
+        <br>Noakhali Science and Technology University (Bangladesh)
+    </div>
+    <span class="date">2017-2019</span>
+</div>
+
+<details>
 
 * Taught Intro to Food Tech
 * Organic Chemistry
 * Microeconomics
 * Biochemistry
+
+</details>
