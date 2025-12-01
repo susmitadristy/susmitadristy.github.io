@@ -18,9 +18,16 @@ See [Prof. Trenton Mize's website](https://www.trentonmize.com/teaching/mcapsi) 
 
 ---
 
-***Assistant Professor*** (2019-2021)\
-Department of Food Technology and Nutrition Science\
-Noakhali Science and Technology University (Bangladesh)
+<div class="job-header">
+    <div>
+        <span><strong>Assistant Professor</strong></span>
+        <br>Department of Food Technology and Nutrition Science
+        <br>Noakhali Science and Technology University (Bangladesh)
+    </div>
+    <span class="date">2019-2021</span>
+</div>
+
+<details>
 
 #### Graduate Courses:
 *   Advanced Human Nutrition
