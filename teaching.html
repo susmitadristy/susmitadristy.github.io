@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teaching | Susmita Ghosh</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -32,16 +31,75 @@
     <main class="container">
         <section id="dynamic-content">
             <h1>Teaching & Mentoring</h1>
-            <div id="markdown-content">Loading teaching...</div>
+            <div id="markdown-content">
+                
+                <div class="job-header">
+                    <div>
+                        <span><strong>Graduate Teaching Assistant</strong></span>
+                        <br>MCAP Summer Institute
+                        <br>Purdue University, West Lafayette, IN
+                    </div>
+                    <span class="date">Summer 2025</span>
+                </div>
+
+                <details>
+                  <summary>See more...</summary>
+                  <br>
+                  <ul>
+                      <li>Longitudinal Data Analysis Workshop for graduate students and professionals</li>
+                      <li>Assisted with R and STATA coding, pedagogy, and student projects</li>
+                  </ul>
+                  <p>See <a href="https://www.trentonmize.com/teaching/mcapsi">Prof. Trenton Mize's website</a> for more details about the course, course materials etc.</p>
+                </details>
+
+                <hr>
+
+                <div class="job-header">
+                    <div>
+                        <span><strong>Assistant Professor</strong></span>
+                        <br>Department of Food Technology and Nutrition Science
+                        <br>Noakhali Science and Technology University (Bangladesh)
+                    </div>
+                    <span class="date">2019-2021</span>
+                </div>
+
+                <details>
+                    <h4>Graduate Courses:</h4>
+                    <ul>
+                        <li>Advanced Human Nutrition</li>
+                        <li>Planning and Project Design</li>
+                        <li>Epidemiology and Community Health</li>
+                    </ul>
+
+                    <h4>Undergraduate Courses</h4>
+                    <ul>
+                        <li>Nutritional Biochemistry</li>
+                        <li>Nutrition and Dietetics</li>
+                    </ul>
+                </details>
+
+                <hr>
+
+                <div class="job-header">
+                    <div>
+                        <span><strong>Lecturer</strong></span>
+                        <br>Department of Food Technology and Nutrition Science
+                        <br>Noakhali Science and Technology University (Bangladesh)
+                    </div>
+                    <span class="date">2017-2019</span>
+                </div>
+
+                <details>
+                    <ul>
+                        <li>Taught Intro to Food Tech</li>
+                        <li>Organic Chemistry</li>
+                        <li>Microeconomics</li>
+                        <li>Biochemistry</li>
+                    </ul>
+                </details>
+
+            </div>
         </section>
     </main>
-
-    <script>
-        fetch('teaching.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked.parse(text);
-            });
-    </script>
 </body>
 </html>
